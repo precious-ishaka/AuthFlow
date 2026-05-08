@@ -1,0 +1,25 @@
+
+
+
+#Backend
+
+To get the server running
+# NPM INSTALL
+1. cd Backend
+2. npm run dev
+3. it will get your port running on localhost:5000
+4. it is a static object database, so creating account doesn't mean it will be stored in a real database.
+5. i purposely removed the .env from .gitignore for faster testing since this is not real world application, just for learning.
+6. Testing the Endpoint /5000/register/JSON{
+"username": "ishaka007" , "email": "ishakaprecious735@gmail.com", "password": " 03938u3uywuy"
+}
+
+7. Login  /5000/login/JSON{
+ "email": "ishakaprecious735@gmail.com", "password": " 03938u3uywuy"
+}
+
+
+#Frontend
+# NPM INSTALL and Install Angular 21 globally
+1. cd frontend
+2. ng s (To get the Angular frontend server running)
